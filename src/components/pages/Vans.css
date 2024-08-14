@@ -52,10 +52,20 @@
 .img1{
     width: 200px;
     height: 200px;
+    transition: background 1s, tranform 2s;
 }
+
+.img1:hover{
+    transform: scale(1.02);
+}
+
 .img2{
     width: 200px;
     height: 200px;
+}
+
+.img2:hover{
+    transform: scale(1.02);
 }
 
 .day{
