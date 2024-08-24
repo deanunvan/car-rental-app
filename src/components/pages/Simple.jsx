@@ -16,17 +16,17 @@ export const Simple = () => {
             <h1>Explore our van options</h1>
           </div>
           <div className="buttons">
-            <Link to='/Simple'><button className='simple'>Simple</button></Link>
+            <Link to='/Simple'><button className='simple-active'>Simple</button></Link>
             <Link to='/Luxury'><button className='simple'>Luxury</button></Link>
             <Link to='/Rugged'><button className='simple'>Rugged</button></Link>
-            <Link className='clear'>Clear filter</Link>
+            <Link to='/Vans' className='clear'>Clear filter</Link>
           </div>
 
           <div className='van-pics'>
             <div className='two-pics'>
 
               <div>
-                <img className='img1' src={img1} alt="" />
+                <Link to='/Van1'><img className='img1' src={img1} alt="" /></Link>
                 <h3>Modest Explorer $60</h3>
                 <div className='day'>
                   <p>/day</p>
@@ -34,7 +34,7 @@ export const Simple = () => {
               </div>
               
               <div>
-              <img className='img2' src={img4} alt="" />
+              <Link to='/Van4'><img className='img2' src={img4} alt="" /></Link>
                 <h3>Dreamfinder $65</h3>
                 <div className='day'>
                   <p>/day</p>
@@ -46,7 +46,7 @@ export const Simple = () => {
 
           <div className="two-pics">
           <div>
-            <img className='img1' src={img5} alt="" />
+            <Link to='/Van5'><img className='img1' src={img5} alt="" /></Link>
                   <h3>The Cruiser $120</h3>
                   <div className='day'>
                     <p>/day</p>
@@ -54,7 +54,7 @@ export const Simple = () => {
             </div>
             
             <div>
-            <img className='img2' src={img6} alt="" />
+            <Link to='/Van6'><img className='img2' src={img6} alt="" /></Link>
                 <h3>Dream Wonder $70</h3>
                 <div className='day'>
                   <p>/day</p>

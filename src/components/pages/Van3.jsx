@@ -26,6 +26,10 @@ export const Van3 = () => {
         </div>
       </div>
 
+      <footer>
+          <p>@2022 #VANLIFE</p>
+        </footer> 
+
     </div>
   )
 }

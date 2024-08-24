@@ -5,11 +5,15 @@ import { NavLink } from 'react-router-dom';
 
 import "./navbar.css";
 
-export const Navbar = () => {
+export const Navbarr = () => {
     return (
-    <nav className='fisrt'>
+        <div className='host'>
+                <nav>
         <Link to="/" className='title'><h1><strong>#CarRental</strong></h1></Link>
         <ul>
+            <li>
+                <Link>Host</Link>
+            </li>
             <li>
                 <NavLink to="/about">About</NavLink>
             </li>
@@ -18,5 +22,6 @@ export const Navbar = () => {
             </li>
         </ul>
     </nav>
+        </div>
     );
 };

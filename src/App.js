@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components/navbar";
+import { Navbarr } from "./components/navbarr";
 import { About, Vans, Home } from "./components/pages";
 import Simple from './components/pages/Simple';
 import Luxury from './components/pages/Luxury';
@@ -11,12 +12,15 @@ import { Van3 } from "./components/pages/Van3";
 import { Van4 } from "./components/pages/Van4";
 import { Van5 } from "./components/pages/Van5";
 import { Van6 } from "./components/pages/Van6";
+import { Signin } from "./components/pages/Signin";
+import { Sorry } from "./components/pages/Sorry";
 
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Navbarr />
       <Routes>
       <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -30,6 +34,8 @@ function App() {
         <Route path="/van4" element={<Van4 />} />
         <Route path="/van5" element={<Van5 />} />
         <Route path="/van6" element={<Van6 />} />
+        <Route path="/signin" element={<Signin />} />
+        <Route path="/sorry" element={<Sorry />} />
       </Routes>
     </div>
   );

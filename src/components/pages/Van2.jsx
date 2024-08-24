@@ -25,6 +25,9 @@ export const Van2 = () => {
             <Link to=""><button className='btn'>Rent this van</button></Link>
         </div>
       </div>
+      <footer>
+          <p>@2022 #VANLIFE</p>
+        </footer> 
 
     </div>
   )

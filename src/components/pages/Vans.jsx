@@ -38,7 +38,7 @@ export const Vans = () => {
                 <Link to='/Van2'><img className='img2' src={img2} alt="" /></Link>
                 <h3>Beach Bum $80</h3>
                 <div className='day'>
-                  <Link to='Rugged'><button className='btn3'>Rugged</button></Link>
+                  <Link to='/Rugged'><button className='btn3'>Rugged</button></Link>
                   <p>/day</p>
                 </div> 
               </div>
@@ -51,7 +51,7 @@ export const Vans = () => {
             <Link to='/Van3'><img className='img1' src={img3} alt="" /></Link>
                   <h3>Reliable Red $100</h3>
                   <div className='day'>
-                    <Link to='Luxury'><button className='btn4'>luxury</button></Link>
+                    <Link to='/Luxury'><button className='btn4'>luxury</button></Link>
                     <p>/day</p>
                   </div>
             </div>
@@ -71,7 +71,7 @@ export const Vans = () => {
             <Link to='/Van5'><img className='img1' src={img5} alt="" /></Link>
                   <h3>The Cruiser $120</h3>
                   <div className='day'>
-                    <Link to='Luxury'><button className='btn4'>Luxury</button></Link>
+                    <Link to='/Luxury'><button className='btn4'>Luxury</button></Link>
                     <p>/day</p>
                   </div>
             </div>
@@ -80,7 +80,7 @@ export const Vans = () => {
             <Link to='/Van6'><img className='img2' src={img6} alt="" /></Link>
                 <h3>Dream Wonder $70</h3>
                 <div className='day'>
-                  <Link to='Rugged'><button className='btn3'>Rugged</button></Link>
+                  <Link to='/Rugged'><button className='btn3'>Rugged</button></Link>
                   <p>/day</p>
                 </div> 
             </div>

@@ -18,8 +18,8 @@ export const Rugged = () => {
           <div className="buttons">
             <Link to='/Simple'><button className='simple'>Simple</button></Link>
             <Link to='/Luxury'><button className='simple'>Luxury</button></Link>
-            <Link to='/'><button className='simple'>Rugged</button></Link>
-            <Link className='clear'>Clear filter</Link>
+            <Link to='/'><button className='simple-rugged'>Rugged</button></Link>
+            <Link to='/Vans' className='clear'>Clear filter</Link>
           </div>
 
           <div className='van-pics'>

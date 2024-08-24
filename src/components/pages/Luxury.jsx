@@ -17,9 +17,9 @@ export const Luxury = () => {
           </div>
           <div className="buttons">
             <Link to='/Simple'><button className='simple'>Simple</button></Link>
-            <Link to='/'><button className='simple'>Luxury</button></Link>
+            <Link to='/'><button className='simple-luxury'>Luxury</button></Link>
             <Link to='/Rugged'><button className='simple'>Rugged</button></Link>
-            <Link className='clear'>Clear filter</Link>
+            <Link to='/Vans' className='clear'>Clear filter</Link>
           </div>
 
           <div className='van-pics'>

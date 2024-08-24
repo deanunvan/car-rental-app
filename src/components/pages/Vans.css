@@ -29,7 +29,34 @@
 }
 
 .simple:hover{
-    background: rgb(37, 37, 37);
+    background: rgb(233, 109, 0);
+}
+
+.simple-active{
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(233, 109, 0);
+    transition: background 1s, tranform 2s;
+}
+
+.simple-luxury{
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(27, 27, 27);
+    transition: background 1s, tranform 2s;
+}
+
+.simple-rugged{
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(23, 42, 71);
+    transition: background 1s, tranform 2s;
 }
 
 .clear{
@@ -56,7 +83,7 @@
 }
 
 .img1:hover{
-    transform: scale(1.02);
+    border: 2px solid blue;
 }
 
 .img2{
@@ -65,7 +92,7 @@
 }
 
 .img2:hover{
-    transform: scale(1.02);
+    border: 2px solid blue;
 }
 
 .day{
@@ -132,4 +159,10 @@ footer{
 
 footer p{
     margin-top: 20px;
+  }
+
+  @media (min-width:400px) and (max-width:500px){
+    .two-pics{
+        gap: 10px;
+    }
   }
