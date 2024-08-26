@@ -41,6 +41,11 @@ nav ul li a:not(.active):hover{
     color: orange;
 }
 
-.host{
-    display: none;
-}
+.host {
+    display: none; /* Default state to hide */
+  }
+  
+  .host.show {
+    display: block; /* Only show when class 'show' is added */
+  }
+  
