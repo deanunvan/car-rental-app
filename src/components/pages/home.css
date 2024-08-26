@@ -2,7 +2,7 @@
     background-image: url('../images/image-53.png'); /* Adjust path as needed */
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 555px;
     width: 100%;
     float: left;
     background-attachment: fixed;
@@ -10,7 +10,7 @@
   }
 
   .home-section{
-    margin-top: 100px;
+    margin-top: 160px;
   }
 
   .home-head{
@@ -226,18 +226,13 @@
 
 
 
-  /* @media (min-width:400px) and (max-width:500px){
+  @media (min-width:400px) and (max-width:500px){
     .home-head{
-      font-size: 30px;
+      br{
+        display: none;
+      }
     }
 
-    .home-text{
-      font-size: 15px;
-    }
-
-    .btn{
-      width: 400px;
-    }
     
-  } */
+  }
   

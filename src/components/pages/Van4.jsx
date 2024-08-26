@@ -22,7 +22,7 @@ export const Van4 = () => {
            The idea is that you can pack up your home and escape for <br />
             a weekend or even longer!</p>
 
-            <Link to=""><button className='btn'>Rent this van</button></Link>
+            <Link to="/Signin"><button className='btn'>Rent this van</button></Link>
         </div>
       </div>
 

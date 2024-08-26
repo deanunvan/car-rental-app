@@ -44,24 +44,6 @@ export const Simple = () => {
             </div>
           </div>
 
-          <div className="two-pics">
-          <div>
-            <Link to='/Van5'><img className='img1' src={img5} alt="" /></Link>
-                  <h3>The Cruiser $120</h3>
-                  <div className='day'>
-                    <p>/day</p>
-                  </div>
-            </div>
-            
-            <div>
-            <Link to='/Van6'><img className='img2' src={img6} alt="" /></Link>
-                <h3>Dream Wonder $70</h3>
-                <div className='day'>
-                  <p>/day</p>
-                </div> 
-            </div>
-          </div>
-
         </div>
         <footer>
           <p>@2022 #VANLIFE</p>

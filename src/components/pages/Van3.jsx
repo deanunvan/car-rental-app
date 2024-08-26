@@ -13,7 +13,7 @@ export const Van3 = () => {
           <img className='van2-img' src={img3} alt="" />
         </div>
         <div className="button">
-        <Link to='Luxury'><button className='btn4'>luxury</button></Link>
+        <Link to='/Luxury'><button className='btn4'>luxury</button></Link>
         <h1>Reliable Red</h1>
         <h5>$100/day</h5>
         <p>The Modest Explorer is a van designed to get you out of the <br />
@@ -22,7 +22,7 @@ export const Van3 = () => {
            The idea is that you can pack up your home and escape for <br />
             a weekend or even longer!</p>
 
-            <Link to=""><button className='btn'>Rent this van</button></Link>
+            <Link to="/Signin"><button className='btn'>Rent this van</button></Link>
         </div>
       </div>
 

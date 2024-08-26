@@ -4,7 +4,6 @@ import img1 from '../images/Rectangle-162.png';
 import "./Van1.css";
 export const Van1 = () => {
   
-
   return (
     <div>
 

@@ -88,7 +88,7 @@ export const Vans = () => {
 
         </div>
         <footer>
-          <p>@2022 #VANLIFE</p>
+          <p>@2022 #VANLIFE</p>      
         </footer> 
     </div>
   )
