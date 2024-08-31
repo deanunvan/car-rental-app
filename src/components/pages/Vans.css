@@ -166,3 +166,15 @@ footer p{
         gap: 10px;
     }
   }
+
+
+  .color{
+    background: rgb(255, 232, 212);
+    transition: background 4s, tranform 2s;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .color:hover{
+    background: rgb(37, 37, 37);
+}

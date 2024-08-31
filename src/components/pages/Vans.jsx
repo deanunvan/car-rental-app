@@ -25,7 +25,7 @@ export const Vans = () => {
           <div className='van-pics'>
             <div className='two-pics'>
 
-              <div>
+              <div className='color'>
                 <Link to='/Van1'><img className='img1' src={img1} alt="" /></Link>
                 <h3>Modest Explorer $60</h3>
                 <div className='day'>
@@ -34,7 +34,7 @@ export const Vans = () => {
                 </div>
               </div>
               
-              <div>
+              <div className='color'>
                 <Link to='/Van2'><img className='img2' src={img2} alt="" /></Link>
                 <h3>Beach Bum $80</h3>
                 <div className='day'>
@@ -47,7 +47,7 @@ export const Vans = () => {
           </div>
 
           <div className="two-pics">
-          <div>
+          <div className='color'>
             <Link to='/Van3'><img className='img1' src={img3} alt="" /></Link>
                   <h3>Reliable Red $100</h3>
                   <div className='day'>
@@ -56,7 +56,7 @@ export const Vans = () => {
                   </div>
             </div>
             
-            <div>
+            <div className='color'>
             <Link to='/Van4'><img className='img2' src={img4} alt="" /></Link>
                 <h3>Dreamfinder $65</h3>
                 <div className='day'>
@@ -67,7 +67,7 @@ export const Vans = () => {
           </div>
 
           <div className="two-pics">
-          <div>
+          <div className='color'>
             <Link to='/Van5'><img className='img1' src={img5} alt="" /></Link>
                   <h3>The Cruiser $120</h3>
                   <div className='day'>
@@ -76,7 +76,7 @@ export const Vans = () => {
                   </div>
             </div>
             
-            <div>
+            <div className='color'>
             <Link to='/Van6'><img className='img2' src={img6} alt="" /></Link>
                 <h3>Dream Wonder $70</h3>
                 <div className='day'>
