@@ -1,24 +1,29 @@
+// Signin.js
 import React, { useState } from 'react';
-import "./Signin.css";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { auth } from '../firebase';
+import './Signin.css';
 
 export const Signin = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault(); // Prevents the form from submitting
 
     // Check if username or password is empty
     if (username === '' || password === '') {
       setErrorMessage('Please fill out all fields.');
     } else {
-      setErrorMessage(''); // Clear any previous error message
-      // Perform the sign-in logic here (e.g., API call)
-
-      // Navigate to the next page
-      window.location.href = '/Sorry';
+      try {
+        await signInWithEmailAndPassword(auth, username, password);
+        navigate('/'); // Navigate to the next page on successful login
+      } catch (error) {
+        setErrorMessage('Please check your email and password or you may not have an account. CREATE ONE');
+      }
     }
   };
 
@@ -54,7 +59,7 @@ export const Signin = () => {
         </form>
 
         <p className="account">
-          Don't have an account? <span className="acc-span">Create one now</span>
+          Don't have an account? <Link to="/signup" className="acc-span">Create one now</Link>
         </p>
       </div>
 

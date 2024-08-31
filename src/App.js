@@ -18,6 +18,7 @@ import { Dashboard } from "./components/pages/Dashboard";
 import { Income } from "./components/pages/Income";
 import { Vanshost } from "./components/pages/Vanshost";
 import { Reviews } from "./components/pages/Reviews";
+import { Signup } from './components/pages/Signup';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path="/van5" element={<Van5 />} />
         <Route path="/van6" element={<Van6 />} />
         <Route path="/signin" element={<Signin />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/sorry" element={<Sorry />} />
         <Route path="/host" element={<Host />} />
         <Route path="/dashboard" element={<Dashboard />} />
