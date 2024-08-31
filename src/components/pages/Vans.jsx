@@ -11,14 +11,15 @@ import "./Vans.css";
 
 export const Vans = () => {
   useEffect(() => {
-    ScrollReveal().reveal('.vans-heading', { delay: 200, distance: '50px', duration: 1000, origin: 'bottom' });
-    ScrollReveal().reveal('.buttons', { delay: 400, distance: '30px', duration: 1000, origin: 'bottom' });
-    ScrollReveal().reveal('.van-pics', { delay: 600, distance: '30px', duration: 1000, origin: 'bottom', interval: 200 });
-    ScrollReveal().reveal('footer', { delay: 800, distance: '20px', duration: 1000, origin: 'bottom' });
+    ScrollReveal().reveal('.vans-heading', { delay: 200, distance: '30px', duration: 1000, origin: 'bottom' });
+    ScrollReveal().reveal('.buttons', { delay: 400, distance: '20px', duration: 1000, origin: 'bottom' });
+    ScrollReveal().reveal('.van-pics', { delay: 600, distance: '20px', duration: 1000, origin: 'bottom', interval: 200 });
+    ScrollReveal().reveal('footer', { delay: 800, distance: '10px', duration: 1000, origin: 'bottom' });
   }, []);
 
   return (
     <div>
+      <div className='navbar'> {/* This is your navbar with higher z-index */}</div>
       <div className='vans'>
         <div className="vans-heading">
           <h1>Explore our van options</h1>
