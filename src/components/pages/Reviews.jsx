@@ -4,7 +4,6 @@ import { Link, NavLink } from "react-router-dom";
 import reviewpic from '../images/Group 306.png';
 import star from '../images/Star 4.png';
 import eliot from '../images/Group 241.png';
-import eliott from '../images/Group 289.png';
 
 export const Reviews = () => {
   return (
