@@ -15,6 +15,10 @@ export const Vans = () => {
     ScrollReveal().reveal('.buttons', { delay: 400, distance: '20px', duration: 1000, origin: 'bottom' });
     ScrollReveal().reveal('.van-pics', { delay: 600, distance: '20px', duration: 1000, origin: 'bottom', interval: 200 });
     ScrollReveal().reveal('footer', { delay: 800, distance: '10px', duration: 1000, origin: 'bottom' });
+    ScrollReveal().reveal('.color', { delay: 600, distance: '20px', duration: 1000, origin: 'bottom', interval: 200 });
+    ScrollReveal().reveal('.btn2', { delay: 600, distance: '20px', duration: 1000, origin: 'bottom', interval: 200 });
+    ScrollReveal().reveal('.btn3', { delay: 600, distance: '20px', duration: 1000, origin: 'bottom', interval: 200 });
+    ScrollReveal().reveal('.btn4', { delay: 600, distance: '20px', duration: 1000, origin: 'bottom', interval: 200 });
   }, []);
 
   return (

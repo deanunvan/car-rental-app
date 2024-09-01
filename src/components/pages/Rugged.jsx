@@ -12,7 +12,7 @@ import "./Vans.css";
 export const Rugged = () => {
   useEffect(() => {
     ScrollReveal().reveal('.vans-heading', { delay: 200, distance: '50px', duration: 1000, origin: 'bottom' });
-    ScrollReveal().reveal('.buttons', { delay: 400, distance: '30px', duration: 1000, origin: 'bottom' });
+    ScrollReveal().reveal('.color', { delay: 400, distance: '30px', duration: 1000, origin: 'bottom' });
     ScrollReveal().reveal('.van-pics', { delay: 600, distance: '30px', duration: 1000, origin: 'bottom', interval: 200 });
     ScrollReveal().reveal('footer', { delay: 800, distance: '20px', duration: 1000, origin: 'bottom' });
   }, []);
